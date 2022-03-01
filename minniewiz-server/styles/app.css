@@ -1,0 +1,30 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.wiz-input{
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid black !important;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.btn-wiz{
+    padding: 5px 20px;
+    border: 2px solid rgb(105, 105, 105);
+    background: transparent;
+    border-radius: 5px;
+}
+
+.btn-wiz:hover{
+    background: rgb(214, 214, 214);
+}
+
+.table-container{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 450px;
+    overflow: auto;
+}

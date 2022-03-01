@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="115dp"
+    android:layout_marginVertical="5dp"
+    app:cardBackgroundColor="#E46643"
+    app:cardCornerRadius="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/userRank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/noto_sans_bold"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_marginRight="15dp"/>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/userImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            app:civ_border_color="#ffffff"
+            android:layout_marginRight="10dp"/>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Jayson Tatum"
+                android:fontFamily="@font/noto_sans_regular"
+                android:textColor="#ffffff"
+                android:layout_weight="2"
+                android:textSize="16dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/userScore"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="90.0"
+            android:gravity="center|end"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
